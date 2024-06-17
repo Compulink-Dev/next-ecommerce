@@ -79,7 +79,7 @@ const Form = () => {
             <FormInput name="City" id="city" required />
             <FormInput name="Postal Code" id="postalCode" required />
             <FormInput name="Country" id="country" required />
-            <div className="my-2">
+            <div className="my-4">
               <button
                 type="submit"
                 disabled={isSubmitting}
